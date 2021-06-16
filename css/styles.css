@@ -1,12 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial;
     padding: 10px;
     background: #f1f1f1;
 }
 
+/** Navbar **/
+
 .header {
     font-family: Helvetica;
-    color: rgb(99, 99, 99);
+    color: #636363;
     padding:30px;
     text-align: center;
     background: white;
@@ -35,6 +42,46 @@ body {
     color: black;
 }
 
+/** Seção Inicial**/
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.container {
+    margin: 10px;
+    width: 400px;
+    height: 359px;
+    padding: 10px;
+    border-radius: 5%;
+    border: 5px solid #8a2be2;
+    margin-top: 5vh;
+    background-color: #E8E8E8;
+}
+
+.container h1 {
+    font-size: 25px;
+}
+
+.pet {
+    padding: 5px;
+    width: 390px;
+    border-radius: 5px;
+}  
+
+.like, .coment, .share {
+    margin-left: 20px;
+    padding: 5px;
+}
+.save {
+    margin-top: -5vh;
+    margin-left: 350px;
+}
+.menu {
+    margin-left: 350px;
+}
 
 
 
